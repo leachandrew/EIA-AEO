@@ -9,6 +9,13 @@ output:
       after_body: 
       theme: lumen
   always_allow_html: yes
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+  
+  
 ---
 
 ```{r basics, cache=FALSE,warning=FALSE,message=FALSE}
