@@ -225,7 +225,6 @@ eia_aeo_comp(start_year = 2015,api_series =".PRCE_NA_NA_NA_CR_WTI_USA_NDLRPBRL.A
                         hist_year=1990)
 ```
 
-
 ## Natural Gas Production, Trade, and Prices {.tabset .tabset-fade}
 ### US Natural Gas Production
 ```{r fig.width=14, fig.height=7, gas_prod, cache=TRUE,warning=FALSE}
